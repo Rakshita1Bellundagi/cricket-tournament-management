@@ -1,0 +1,29 @@
+{
+  "tournaments": [
+    {"id":1,"name":"IPL 2026","format":"T20","startDate":"2026-09-10","endDate":"2026-10-25","status":"Active"},
+    {"id":2,"name":"College Premier Cup","format":"T20","startDate":"2026-10-01","endDate":"2026-10-15","status":"Upcoming"},
+    {"id":3,"name":"State One Day League","format":"ODI","startDate":"2026-08-05","endDate":"2026-08-30","status":"Completed"}
+  ],
+  "teams": [
+    {"id":1,"name":"India","shortName":"IND","captain":"Rohit Sharma","coach":"Rahul Dravid"},
+    {"id":2,"name":"Australia","shortName":"AUS","captain":"Pat Cummins","coach":"Andrew McDonald"},
+    {"id":3,"name":"England","shortName":"ENG","captain":"Jos Buttler","coach":"Brendon McCullum"},
+    {"id":4,"name":"South Africa","shortName":"SA","captain":"Temba Bavuma","coach":"Shukri Conrad"},
+    {"id":5,"name":"New Zealand","shortName":"NZ","captain":"Kane Williamson","coach":"Gary Stead"},
+    {"id":6,"name":"Pakistan","shortName":"PAK","captain":"Babar Azam","coach":"Mike Hesson"}
+  ],
+  "players": [
+    {"id":1,"name":"Virat Kohli","teamId":1,"role":"Batsman","runs":482,"stat":"142.4"},
+    {"id":2,"name":"Jasprit Bumrah","teamId":1,"role":"Bowler","runs":72,"stat":"18"},
+    {"id":3,"name":"Pat Cummins","teamId":2,"role":"Bowler","runs":118,"stat":"16"},
+    {"id":4,"name":"Jos Buttler","teamId":3,"role":"Wicket Keeper","runs":390,"stat":"—"},
+    {"id":5,"name":"Kane Williamson","teamId":5,"role":"Batsman","runs":355,"stat":"—"},
+    {"id":6,"name":"Rashid Khan","teamId":6,"role":"All-Rounder","runs":205,"stat":"14"}
+  ],
+  "matches": [
+    {"id":1,"code":"M01","team1Id":1,"team2Id":2,"date":"2026-09-12","time":"19:30","venue":"M. Chinnaswamy Stadium","status":"Upcoming"},
+    {"id":2,"code":"M02","team1Id":3,"team2Id":4,"date":"2026-09-13","time":"15:30","venue":"Wankhede Stadium","status":"Upcoming"},
+    {"id":3,"code":"M03","team1Id":5,"team2Id":6,"date":"2026-09-14","time":"19:30","venue":"Eden Gardens","status":"Upcoming"},
+    {"id":4,"code":"M04","team1Id":1,"team2Id":3,"date":"2026-09-08","time":"19:30","venue":"Delhi Stadium","status":"Completed"}
+  ]
+}
